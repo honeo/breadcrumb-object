@@ -1,0 +1,29 @@
+{
+  "name": "breadcrumb-object",
+  "version": "1.0.0",
+  "description": "参照したプロパティの履歴を配列で取得",
+  "main": "index.mjs",
+  "mode": "esm",
+  "scripts": {
+    "test": "npm update && cd ./test && node --experimental-modules index.mjs"
+  },
+  "author": "honeo",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeo/breadcrumb-object.git"
+  },
+  "keywords": [
+    "object",
+    "log",
+    "breadcrumb",
+    "property"
+  ],
+  "bugs": {
+    "url": "https://github.com/honeo/breadcrumb-object/issues"
+  },
+  "homepage": "https://github.com/honeo/breadcrumb-object#readme"
+}
