@@ -4,8 +4,10 @@
 
 // Mod
 import assert from 'assert';
-import Breadcrumb from '../';
-import json from '../package.json';
+import Breadcrumb from '../index.mjs';
+import { readFileSync } from 'fs';
+
+const json = JSON.parse(readFileSync('../package.json', 'utf8'));
 console.log(`${json.name} v${json.version}: test`);
 
 // Main
@@ -45,4 +47,10 @@ const breadcrumb_cb_args = new Breadcrumb( (logs, args)=>{
 assert.deepEqual(
 	breadcrumb_cb_args.Hans.Grete('🍞'),
 	'🍞.Hans.Grete'
+);
+
+const symbol = Symbol('test');
+assert.deepEqual(
+	breadcrumb[symbol](),
+	[symbol]
 );
