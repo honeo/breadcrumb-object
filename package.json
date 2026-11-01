@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "参照したプロパティの履歴を配列で取得",
   "main": "index.mjs",
-  "mode": "esm",
+  "type": "module",
   "scripts": {
-    "test": "npm update && cd ./test && node --experimental-modules index.mjs"
+    "test": "node ./test/index.mjs"
   },
   "author": "honeo",
   "license": "MIT",
