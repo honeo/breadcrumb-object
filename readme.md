@@ -4,7 +4,7 @@
 
 
 ## なにこれ
-Proxyを触ってみたくて勢いで作った実験用モジュール。  
+Proxyを触ってみたくて勢いで作った実験用モジュール。
 参照したプロパティの履歴を配列で取得する。
 
 
@@ -32,5 +32,5 @@ breadcrumb.Hans.Grete('🍞'); // "Hans.Grete.🍞"
 
 ## BreakinｇChange
 ### v1 => v2
-callbackのthisをundefからインスタンスに変更、JS本来の挙動に合わせた。
+callbackのthisをundefからインスタンスに変更、JS本来の挙動に合わせた。  
 ESMの先行実装や策定中だった部分を現在の仕様に合わせた。
