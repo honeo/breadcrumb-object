@@ -1,6 +1,6 @@
 {
   "name": "breadcrumb-object",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "参照したプロパティの履歴を配列で取得",
   "main": "index.mjs",
   "type": "module",
